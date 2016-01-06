@@ -53,9 +53,9 @@ private WebDriver driver;
 		 		 
 		 		// step 2 sign up
 		 		
-		 		driver.findElement(By.id("forenames")).sendKeys("anusha");
+		 		driver.findElement(By.id("forenames")).sendKeys("mounika");
 		 		Thread.sleep(1000);
-				driver.findElement(By.id("surename")).sendKeys("sandra");
+				driver.findElement(By.id("surename")).sendKeys("saimpu");
 				Thread.sleep(1000);
 				driver.findElement(By.id("radiof")).click();
 				Thread.sleep(1000);
@@ -101,7 +101,7 @@ private WebDriver driver;
 			    Thread.sleep(3000);
 			    
 			    driver.findElement(By.id("ccnum")).sendKeys("5765443333");
-			    driver.findElement(By.id("ccname")).sendKeys("anusha");
+			    driver.findElement(By.id("ccname")).sendKeys("mounikiaS");
 				Select sel4=new Select(driver.findElement(By.id("ccmonth")));
 			    sel4.selectByVisibleText("March");
 			    Select sel5=new Select(driver.findElement(By.id("ccyear")));
